@@ -1,0 +1,51 @@
+{
+  "stats_before": {
+    "n_rows_raw": 1215,
+    "missing_weight": 45,
+    "missing_rating": 30,
+    "duplicates": 15,
+    "inconsistent_mode_labels": 61
+  },
+  "stats_after": {
+    "n_rows_clean": 1200,
+    "missing_any": 0,
+    "outliers_capped": 97,
+    "unique_modes": [
+      "Air",
+      "Rail",
+      "Road"
+    ]
+  },
+  "otd_by_warehouse": {
+    "Bangalore": 81.7,
+    "Mumbai": 77.3,
+    "Pune": 73.4,
+    "Hyderabad": 62.0,
+    "Delhi-NCR": 54.2
+  },
+  "avg_cost_by_mode": {
+    "Air": 12829.9,
+    "Rail": 4400.0,
+    "Road": 5565.0
+  },
+  "model_results": {
+    "LinearRegression": {
+      "RMSE": 0.434,
+      "MAE": 0.346,
+      "R2": 0.819
+    },
+    "RandomForest": {
+      "RMSE": 0.436,
+      "MAE": 0.348,
+      "R2": 0.817
+    },
+    "best_rf_params": {
+      "max_depth": 5,
+      "n_estimators": 100
+    }
+  },
+  "overall_otd_rate": 69.9,
+  "avg_delivery_time": 1.99,
+  "avg_cost": 7051.7,
+  "n_clean_rows": 1200
+}

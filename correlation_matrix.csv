@@ -1,0 +1,6 @@
+,distance_km,weight_kg,actual_days,cost_inr,customer_rating
+distance_km,1.0,0.01,0.75,0.68,-0.0
+weight_kg,0.01,1.0,0.02,0.01,-0.04
+actual_days,0.75,0.02,1.0,0.14,-0.3
+cost_inr,0.68,0.01,0.14,1.0,0.16
+customer_rating,-0.0,-0.04,-0.3,0.16,1.0

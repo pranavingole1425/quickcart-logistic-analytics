@@ -1,0 +1,16 @@
+{
+  "LinearRegression": {
+    "RMSE": 0.434,
+    "MAE": 0.346,
+    "R2": 0.819
+  },
+  "RandomForest": {
+    "RMSE": 0.436,
+    "MAE": 0.348,
+    "R2": 0.817
+  },
+  "best_rf_params": {
+    "max_depth": 5,
+    "n_estimators": 100
+  }
+}
